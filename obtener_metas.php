@@ -3,7 +3,7 @@
 
 require 'Meta.php';
 
-if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+//if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     
     //Manejar petición GET
     $metas = Meta::getAll();
@@ -19,4 +19,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         ));
         
     }
-}
+//}
+
+?>

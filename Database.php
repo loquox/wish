@@ -31,7 +31,7 @@ class  Database {
     public function getDb(){
         if (self::$pdo == null){
             self::$pdo = new PDO(
-                'mysql:daname='. DATABASE .
+                'mysql:dbname='. DATABASE .
                 ';host=' . HOSTNAME .   
                 ';port:63343;' ,
                 USERNAME,
