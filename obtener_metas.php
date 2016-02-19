@@ -11,7 +11,7 @@ require 'Meta.php';
         $datos["estado"] = 1;
         $datos["metas"] = $metas;
         
-        print json_encode(Sdatos);
+        print json_encode($datos);
     } else {
         print json_encode(array(
         "estado" => 2,

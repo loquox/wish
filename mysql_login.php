@@ -3,5 +3,5 @@
 define("HOSTNAME", "localhost");
 define("DATABASE", "wish");
 define("USERNAME", "root");
-define("PASSWORD"."123");
+define("PASSWORD", "123");
 ?>

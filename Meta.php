@@ -20,6 +20,8 @@ class Meta
             return $comando->fetchAll(PDO::FETCH_ASSOC);
                        
         }catch (PDOException $e){
+            echo 'Fallo la conexion :' . $e->getMessage();
+            
             return false;
         }
     }
