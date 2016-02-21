@@ -14,7 +14,7 @@ class Meta
         try{
             //Preparar sentencia
             $comando = Database::getInstance()->getDb()->prepare($consulta);
-            //Ejecutar sentencia preparada total
+            //Ejecutar sentencia preparada 
             $comando->execute();
 
             return $comando->fetchAll(PDO::FETCH_ASSOC);
