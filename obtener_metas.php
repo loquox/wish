@@ -5,7 +5,8 @@ require 'Meta.php';
 
 //if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
-    //Manejar petición GET ALL para obtener metas
+    //Manejar petición GET ALL para obtener todas las metas
+
     $metas = Meta::getAll();
     if ($metas) {
         $datos["estado"] = 1;
