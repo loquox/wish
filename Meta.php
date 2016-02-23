@@ -55,7 +55,6 @@ class Meta
                             echo 'Fallo la conexion :' . $e->getMessage();
                             return -1;
                           }
-
-  }
-
 }
+}
+?>
